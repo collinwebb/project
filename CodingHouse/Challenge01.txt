@@ -1,0 +1,16 @@
+For those who do not want to read through or run
+Challenge01.json, the following is a summary.
+
+Total Time:
+04:41:23
+Total Samples:
+1540
+Top Speed (wpm):
+104
+Average Speed (wpm):
+56
+Average Speed Today (wpm):
+68
+
+Note: times generally occur with non-complex words.
+I am still adding complexity as I go.
