@@ -1,0 +1,18 @@
+var rando = Math.floor(Math.random() * 16777217).toString(16);
+
+function invertColor(hexTripletColor) {
+    var color = hexTripletColor;
+    color = color.substring(1);           // remove #
+    color = parseInt(color, 16);          // convert to integer
+    color = 0xFFFFFF ^ color;             // invert three bytes
+    color = color.toString(16);           // convert to hex
+    color = ("000000" + color).slice(-6); // pad with leading zeros
+    color = "#" + color;                  // prepend #
+    return color;
+}
+
+$(".div").each(function() {
+  $(this).css("color", rando, "background-color", invertColor(rando));
+});
+
+//attempts which have failed... learning more.
